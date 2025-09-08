@@ -52,7 +52,7 @@ python PacMan2.py --map 3
 
 ---
 
-## Ejercicio 3 — `PacMan2.py`
+## Ejercicio 4 — `PacMan3.py`
 
 **Objetivo:** Extender Pac-Man con evasión de enemigos y estrategia de replanteo de rutas.
 
