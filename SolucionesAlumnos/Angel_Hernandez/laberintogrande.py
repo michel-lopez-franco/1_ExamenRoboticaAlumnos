@@ -133,7 +133,7 @@ class InstructionView(arcade.View):
                 self.key_positions = []
                 # ...existing code...
                 self.victory = False
-                self.banana_texture = arcade.load_texture("C:\\Users\\lap15\\OneDrive\\Imágenes\\platanos_0.jpg")  # Ruta de la imagen
+                #self.banana_texture = arcade.load_texture("C:\\Users\\lap15\\OneDrive\\Imágenes\\platanos_0.jpg")  # Ruta de la imagen
         
             # ...existing code...
         
@@ -146,7 +146,7 @@ class InstructionView(arcade.View):
                     def __init__(self):
                         super().__init__()
                         # ...existing code...
-                        self.banana_texture = arcade.load_texture("C:/Users/lap15/OneDrive/Imágenes/platanos_0.jpg")  # Cambia la ruta si es necesario
+                        #self.banana_texture = arcade.load_texture("C:/Users/lap15/OneDrive/Imágenes/platanos_0.jpg")  # Cambia la ruta si es necesario
                         # ...existing code...
                 self.wall_list.draw(pixelated=True)
                 self.key_list.draw()
@@ -189,7 +189,7 @@ class InstructionView(arcade.View):
                         def __init__(self):
                             super().__init__()
                             # ...existing code...
-                            self.banana_texture = arcade.load_texture("C:/Users/lap15/OneDrive/Imágenes/platanos_0.jpg")  # Cambia la ruta si es necesario
+                            #self.banana_texture = arcade.load_texture("C:/Users/lap15/OneDrive/Imágenes/platanos_0.jpg")  # Cambia la ruta si es necesario
                             # ...existing code...
                     
                         # ...existing code...
@@ -231,7 +231,7 @@ class InstructionView(arcade.View):
                     
                             self.draw_time = timeit.default_timer() - draw_start_time                # ...existing code...
                 self.at_exit = False
-                self.exit_texture = arcade.load_texture("C:\\Users\\lap15\\OneDrive\\Imágenes\\platanos_0.jpg")  # Cambia la ruta
+               # self.exit_texture = arcade.load_texture("C:\\Users\\lap15\\OneDrive\\Imágenes\\platanos_0.jpg")  # Cambia la ruta
 
             def on_update(self, delta_time):
                 if self.victory or self.at_exit:
@@ -333,7 +333,7 @@ class GameView(arcade.View):
 
         # Player
         self.player_sprite = arcade.Sprite(
-    "C:\\Users\\lap15\\OneDrive\\Imágenes\\Saved Pictures\\mono.jpg",
+        ":resources:images/animated_characters/female_person/femalePerson_idle.png",
     scale=SPRITE_SCALING,
 )
         self.player_list.append(self.player_sprite)
