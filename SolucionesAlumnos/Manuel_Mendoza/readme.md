@@ -99,6 +99,17 @@ Notas generales para todos los ejercicios
 - Si se usan librerías externas, incluir instrucciones de instalación (requirements.txt o pip install).
 - Puntuarán especialmente las soluciones reproducibles y bien documentadas.
 
+
+## Nota importante sobre los ejercicios 2, 3 y 4
+
+- Para que los ejercicios 2, 3 y 4 sean evaluados debes personalizar el juego: modificar la interfaz es obligatorio.
+- "Personalizar la interfaz" incluye, por ejemplo, añadir nuevos parámetros de ejecución, cambiar la representación del mapa, introducir nuevos comandos o elementos visibles en la interfaz, o proporcionar una versión del juego con opciones de configuración distintas a la original.
+- Si no se realiza una modificación explícita de la interfaz del juego, las soluciones a los ejercicios 2, 3 y 4 no serán tenidas en cuenta.
+- Indica en tu entrega qué cambios de interfaz hiciste y cómo probarlos (comandos exactos o ejemplos).
+- Si usas dependencias externas, añade instrucciones de instalación (requirements.txt o pip install).
+- Se valorará especialmente la reproducibilidad y la documentación clara.
+
+
 ## Ejercicio 5 — Genera un pull request
 
 Objetivo  
@@ -141,7 +152,7 @@ Recomendaciones rápidas
 - Si usas dependencias externas, añade requirements.txt.
 - Comprueba que los notebooks corran en orden y que las rutas sean relativas para facilitar ejecución local.
 
-# Ejercicio 6 — Modifica el archivo procedural.py
+## Ejercicio 6 — Modifica el archivo procedural.py
 
 Objetivo  
 Personalizar procedural.py para añadir un nuevo elemento coleccionable en el mapa y desarrollar un algoritmo que lo localice y recoja.
@@ -165,12 +176,3 @@ Criterios de evaluación (breves)
 - Correctitud: el algoritmo encuentra el elemento sin atravesar muros.
 - Claridad de la interfaz y documentación.
 - Reproducibilidad del ejemplo provisto.
-
-<span style="color:red">Nota importante sobre los ejercicios 2, 3 y 4</span>
-
-- Para que los ejercicios 2, 3 y 4 sean evaluados debes personalizar el juego: modificar la interfaz es obligatorio.
-- "Personalizar la interfaz" incluye, por ejemplo, añadir nuevos parámetros de ejecución, cambiar la representación del mapa, introducir nuevos comandos o elementos visibles en la interfaz, o proporcionar una versión del juego con opciones de configuración distintas a la original.
-- Si no se realiza una modificación explícita de la interfaz del juego, las soluciones a los ejercicios 2, 3 y 4 no serán tenidas en cuenta.
-- Indica en tu entrega qué cambios de interfaz hiciste y cómo probarlos (comandos exactos o ejemplos).
-- Si usas dependencias externas, añade instrucciones de instalación (requirements.txt o pip install).
-- Se valorará especialmente la reproducibilidad y la documentación clara.
